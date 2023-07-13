@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WEB700</title>
+    <link rel="stylesheet" href="/css/theme.css">
+    <meta charset="UTF-8" />
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand" href="#">Jasbir Singh</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/students/add">Add Student</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="/htmlDemo">Html Demo</a></li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a class="nav-link" href="/students">Students</a></li>
+					<li class="nav-item"><a class="nav-link" href="/tas">Teaching Assistants</a></li>
+					<li class="nav-item"><a class="nav-link" href="/courses">Courses</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+            <section>
+                <div class="container">
+                    <h2 class="text-center my-4">Tables Section</h2>
+        
+                    <!-- Table 1 -->
+                    <table class="table table-bordered">
+                        <caption>Table 1: Sample Data</caption>
+                        <thead>
+                            <tr>
+                                <th>Header 1</th>
+                                <th>Header 2</th>
+                                <th>Header 3</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td rowspan="2">Cell 1</td>
+                                <td>Cell 2</td>
+                                <td><a href="#">Link</a></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><img src="https://via.placeholder.com/150" alt="Placeholder Image"></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Footer</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+        
+                    <!-- Table 2 -->
+                    <table class="table table-striped">
+                        <caption>Table 2: More Sample Data</caption>
+                        <thead>
+                            <tr>
+                                <th>Header A</th>
+                                <th>Header B</th>
+                                <th>Header C</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cell A1</td>
+                                <td colspan="2">Cell B1</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Cell A2</td>
+                                <td>Cell B2</td>
+                                <td>Cell C2</td>
+                            </tr>
+                            <tr>
+                                <td>Cell B3</td>
+                                <td><a href="#">Another Link</a></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Another Footer</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+        
+                    <p class="mt-4">
+                        This section showcases two tables designed with Bootstrap 4. The first table, "Table 1: Sample Data," contains a link and an image within its cells. The second table, "Table 2: More Sample Data," demonstrates how cells can span multiple columns or rows. Both tables are examples of how diverse content can be presented in a tabular format.
+                    </p>
+                </div>
+            </section>
+
+            <!-- herer -->
+            <section>
+                <div class="container">
+                    <h2 class="text-center my-4">Lists Section</h2>
+        
+                    <!-- Unordered List -->
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            Item 1: <a href="#">Link</a>
+                        </li>
+                        <li class="list-group-item">
+                            Item 2: <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+                        </li>
+                        <li class="list-group-item">Item 3: Text content</li>
+                        <li class="list-group-item">Item 4: More text content</li>
+                        <li class="list-group-item">
+                            Item 5: Nested Ordered List
+                            <ol>
+                                <li>Nested Item 1</li>
+                                <li>Nested Item 2</li>
+                                <li>Nested Item 3</li>
+                            </ol>
+                        </li>
+                    </ul>
+        
+                    <p class="mt-4">
+                        This section demonstrates the usage of Bootstrap 4 in creating a styled unordered list with various types of content. The list contains five items including text, a hyperlink, an image, and even a nested ordered list. This showcases the versatility and flexibility of lists in presenting diverse content.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <h2 class="text-center my-4">Images Section</h2>
+        
+                    <!-- Image 1 -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Snowboarder_in_halfpipe.jpg" alt="Snowboarder" class="img-fluid rounded mb-3">
+        
+                    <!-- Image 2 -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Surfing_in_Hawaii.jpg" alt="Surfing in Hawaii" class="img-fluid rounded mb-3">
+        
+                    <!-- Image 3 -->
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Windsurfing_in_Vassiliki%2C_Greece.jpg" alt="Windsurfing in Greece" class="img-fluid rounded mb-3">
+        
+                    <p class="mt-4">
+                        This section displays a series of images related to extreme sports, encompassing snowboarding, surfing in Hawaii, and windsurfing in Greece. Each image is responsive, making use of Bootstrap 4's "img-fluid" class for optimal viewing across various device sizes. The images are also enhanced with a rounded appearance using the "rounded" class and include appropriate "alt" attributes for improved accessibility.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <h2 class="text-center my-4">Audio Section</h2>
+        
+                    <!-- Audio Player -->
+                    <audio controls>
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2022/web700/A3/sample-audio.mp3" type="audio/mpeg">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2022/web700/A3/sample-audio.ogg" type="audio/ogg">
+                        Your browser does not support the audio element.
+                    </audio>
+        
+                    <p class="mt-4">
+                        This section contains an HTML5 audio player, compatible with various audio file types. Two audio sources are provided in different formats: .mp3 and .ogg. This ensures maximum compatibility across different browsers and devices. The player includes basic controls for playback, allowing users to play, pause, and seek through the audio as needed.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <div class="container">
+                    <h2 class="text-center my-4">Video Section</h2>
+        
+                    <!-- Video Player -->
+                    <video controls class="w-100">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2022/web700/A3/sample-video.mp4" type="video/mp4">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2022/web700/A3/sample-video.ogg" type="video/ogg">
+                        <source src="https://pat-crawford-sdds.netlify.app/shared/fall-2022/web700/A3/sample-video.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
+        
+                    <p class="mt-4">
+                        This section includes an HTML5 video player that supports various video formats for maximum compatibility across different browsers and devices. Three formats are provided: .mp4, .ogg, and .webm. The video player comes with standard controls, enabling users to play, pause, adjust the volume, and seek through the video at their convenience.
+                    </p>
+                </div>
+            </section>
+
+
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
