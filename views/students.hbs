@@ -1,0 +1,35 @@
+<div class="row">
+<div class="col-md-12">
+    <h2>Students</h2>
+    <hr />
+
+    <!-- Create table structure -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Student Num</th>
+                <th scope="col">Full Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Address</th>
+                <th scope="col">Status</th>
+                <th scope="col">Course ID</th>
+                <th scope="col">Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Use Handlebars to iterate over students array -->
+            {{#each students}}
+            <tr>
+                <td>{{this.studentNum}}</td>
+                <td><a href="/students/edit/{{this.studentNum}}">{{this.firstName}} {{this.lastName}}</a></td>
+                <td>{{this.email}}</td>
+                <td>{{this.address}}</td>
+                <td>{{this.status}}</td>
+                <td>{{this.course}}</td>
+                <td><a href="/students/edit/{{this.studentNum}}">Edit</a></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+</div>

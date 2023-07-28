@@ -1,0 +1,29 @@
+<div class="row">
+<div class="col-md-12">
+    <h2>Courses</h2>
+    <hr />
+
+    <!-- Create table structure -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Course ID</th>
+                <th scope="col">Course Code</th>
+                <th scope="col">Course Description</th>
+                <th scope="col">Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Use Handlebars to iterate over courses array -->
+            {{#each courses}}
+            <tr>
+                <td>{{this.courseId}}</td>
+                <td><a href="/courses/edit/{{this.courseId}}">{{this.courseCode}}</a></td>
+                <td>{{this.courseDescription}}</td>
+                <td><a href="/courses/edit/{{this.courseId}}">Edit</a></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+</div>
