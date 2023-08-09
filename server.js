@@ -1,14 +1,9 @@
-/*********************************************************************************
-* WEB700 – Assignment 06
-* I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part of this
-* assignment has been copied manually or electronically from any other source (including web sites) or
-* distributed to other students.
-*
-* Name: Sachin Sapkota         Student ID: 113877229         Date: 2023-08-09
-*
-* Online (Cyclic) Link: 
-*
-********************************************************************************/
+// WEB700 – Assignment 06
+// I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part
+// of this assignment has been copied manually or electronically from any other source
+// (including 3rd party web sites) or distributed to other students.
+// Cyclic link : https://raspberry-ostrich-vest.cyclic.app
+// Name: Jasbir Singh Student ID:116277229 Date: 12 July 2023
 
 var HTTP_PORT = process.env.PORT || 8080;
 var express = require('express');
