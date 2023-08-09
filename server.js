@@ -8,11 +8,8 @@
 var HTTP_PORT = process.env.PORT || 8080;
 var express = require('express');
 var app = express();
-var path = require('path');
 var collegeData = require('./modules/collegeData.js');
-const { error } = require('console');
 const exphbs = require('express-handlebars');
-const { col } = require('sequelize');
 
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));

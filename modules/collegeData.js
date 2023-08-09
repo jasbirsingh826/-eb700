@@ -1,13 +1,5 @@
-const Sequelize = require('sequelize');
-var sequelize = new Sequelize('hncewkvg', 'hncewkvg', 'XkMS_tvgjEN5Au94dwKYCtKp-OJ6hco4', {
- host: 'drona.db.elephantsql.com/hncewkvg',
- dialect: 'postgres',
- port: 5432,
- dialectOptions: {
- ssl: { rejectUnauthorized: false }
- },
- query:{ raw: true }
-});
+const { Sequelize } = require("sequelize");
+var sequelize = new Sequelize('postgres://hncewkvg:XkMS_tvgjEN5Au94dwKYCtKp-OJ6hco4@drona.db.elephantsql.com/hncewkvg');
 
 var Student = sequelize.define('Student', {
     studentNum: {
