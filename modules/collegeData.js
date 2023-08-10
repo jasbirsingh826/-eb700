@@ -1,5 +1,5 @@
 const { Sequelize } = require("sequelize");
-var sequelize = new Sequelize('postgres://hncewkvg:XkMS_tvgjEN5Au94dwKYCtKp-OJ6hco4@drona.db.elephantsql.com/hncewkvg');
+var sequelize = new Sequelize('postgres://vortfial:hcgIp_dVfZ4vJAEfoG-5gE2hr-4YGG74@rosie.db.elephantsql.com/vortfial');
 
 var Student = sequelize.define('Student', {
     studentNum: {
